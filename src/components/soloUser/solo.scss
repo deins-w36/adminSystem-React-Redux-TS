@@ -1,0 +1,46 @@
+.solo {
+    padding: 50px 0;
+    font-size: 20px;
+    .container-solo {
+        width: 71vw;
+        margin: 0 auto;
+    }  
+
+    &__table {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    &__name {
+        margin-bottom: 15px;
+    }
+
+    &__test {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    &__choice {
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    &__param {
+        margin-bottom: 15px;
+    }
+
+    &__attempts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    &__attempt {
+        padding: 10px;
+        border: 2px solid #fff;
+        margin-bottom: 10px;
+    }
+}

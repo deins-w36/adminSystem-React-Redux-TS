@@ -1,0 +1,29 @@
+.header {
+    width: 100vw;
+    height: 50px;
+    background-color: #04ace4;
+    color:#fff;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 20px;
+
+    &__btns {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 60px;  
+    }
+    &__tests , &__users, &__exit{
+        cursor: pointer;
+        padding: 3px;
+        text-decoration: none;
+        color:#fff;
+        &:hover {
+            transform: scale(1.03);
+        }
+    }
+}

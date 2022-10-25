@@ -1,0 +1,32 @@
+.user {
+    padding: 50px 0;
+    
+    .container-user {
+        width: 71vw;
+        margin: 0 auto;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    &__item {
+        width: 30vw;;
+        padding: 10px;
+        border: 2px solid #fff;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    &__name {
+        font-size: 20px;
+        color: #000;
+        text-decoration: none;
+    }
+}
+.link {
+    text-decoration: none;
+}
