@@ -40,6 +40,7 @@ const NewTest: React.FC = () => {
         }
         testCreated(newTest)
         navigate('/test')
+        navigate(0)
     }
 
     return (
