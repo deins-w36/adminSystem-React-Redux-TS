@@ -1,11 +1,10 @@
-
 .new-test {
     padding: 50px 0;
     font-size: 20px;
     .container__new-test {
         width: 71vw;
         margin: 0 auto;
-    }  
+    }
 
     h3 {
         font-size: 30px;
@@ -73,18 +72,17 @@
         }
     }
 
-
     &__btn {
         width: 40%;
         height: 40px;
-        border:none;
+        border: none;
         border-radius: 15px;
-        
+
         background-color: #04ace4;
         font-size: 18px;
-        color:#fff;
+        color: #fff;
         margin-bottom: 25px;
-    
+
         cursor: pointer;
     }
 }
@@ -93,4 +91,3 @@
     text-align: center;
     padding-top: 8px;
 }
-

@@ -4,7 +4,7 @@ body {
 
 .test {
     padding: 50px 0;
-    
+
     .container-test {
         width: 71vw;
         margin: 0 auto;
@@ -19,21 +19,20 @@ body {
     }
 
     &__item {
-        width: 50vw;;
+        width: 50vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        
+
         padding: 10px;
         border: 2px solid #fff;
         margin-bottom: 20px;
         &-dis {
-            border: 2px solid rgba(0,0,0,.4);
-            background-color: rgba(0,0,0,.4);
+            border: 2px solid rgba(0, 0, 0, 0.4);
+            background-color: rgba(0, 0, 0, 0.4);
         }
     }
 
-    
     &__name {
         font-size: 20px;
     }
@@ -54,18 +53,17 @@ body {
         display: block;
         width: 40%;
         height: 40px;
-        border:none;
+        border: none;
         border-radius: 15px;
-        
+
         background-color: #04ace4;
         font-size: 18px;
-        color:#fff;
+        color: #fff;
         text-decoration: none;
         text-align: center;
         padding-top: 8px;
         cursor: pointer;
     }
-
 }
 
 .errorLoading {

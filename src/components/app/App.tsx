@@ -6,6 +6,7 @@ import Test from '../routesElements/Test'
 import User from '../routesElements/User'
 import CreateTest from '../routesElements/CreateTest'
 import OnePersone from '../routesElements/OnePersone'
+import NotFound from '../routesElements/NotFound'
 
 const App: FC = () => {
     return (
@@ -16,6 +17,7 @@ const App: FC = () => {
                 <Route path='/test/new-test' element={<CreateTest />} />
                 <Route path='/users' element={<User />} />
                 <Route path='/users/:userId' element={<OnePersone />} />
+                <Route path='/*' element={<NotFound />} />
             </Routes>
         </Router>
     )
